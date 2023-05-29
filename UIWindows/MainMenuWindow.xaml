@@ -1,0 +1,35 @@
+﻿<Window x:Class="ImageRecognition.UIWindows.MainMenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageRecognition.UIWindows"
+        mc:Ignorable="d"
+        Title="MainMenuWindow" Height="600" Width="900"
+        Background="#1d1e2c"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Button Content="Passwords" Width="200" Height="50" Margin="0,0,646,459" Background="#007acc" VerticalAlignment="Bottom" HorizontalAlignment="Right" Click="PaswordsMenuClicked">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Add Accounts" Width="200" Height="50" Margin="0,0,646,272" Background="#007acc" VerticalAlignment="Bottom" HorizontalAlignment="Right" Click="AddAccountClicked">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="User settings" Width="200" Height="50" Margin="0,0,646,92" Background="#007acc" VerticalAlignment="Bottom" HorizontalAlignment="Right" Click="UserSettingsClicked">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</Window>

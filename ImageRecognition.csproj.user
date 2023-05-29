@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="UIWindows\AddPasswordWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIWindows\FaceRecognitionWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIWindows\InputMasterPasswordWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIWindows\LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIWindows\MainMenuWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIWindows\ManagedPasswordsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIWindows\NewPasswordWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIWindows\OldPassword.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIWindows\SelectedPasswordWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIWindows\UserSettingWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIWindows\AddPasswordWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIWindows\FaceRecognitionWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIWindows\InputMasterPasswordWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIWindows\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIWindows\MainMenuWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIWindows\ManagedPasswordsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIWindows\NewPasswordWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIWindows\OldPassword.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIWindows\SelectedPasswordWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIWindows\UserSettingWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
